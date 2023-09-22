@@ -1,4 +1,4 @@
-# External Party Risk Analysis Dashboard
+# [External Party Risk Analysis Dashboard](https://eprmdashboard.netlify.ap))
 
 This project is a Vendor Risk Dashboard built using React.js. It provides a comprehensive view of various risk factors associated with vendors and allows users to compare these factors between different vendors.
 
