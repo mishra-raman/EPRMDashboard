@@ -1,0 +1,71 @@
+body {
+  background-color: #edf5ff;
+}
+
+input[type="text"] {
+  width: fit-content; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+
+.chart-wrapper {
+  padding: 2%;
+  display: inline-block;
+}
+
+.main.chart-wrapper {
+  width: 96%;
+  height: 400px;
+}
+
+.sub.chart-wrapper {
+  width: 29%;
+  height: 300px;
+}
+
+/* Simple responsivenss example */
+@media (max-width: 700px) {
+  .sub.chart-wrapper {
+    width: 96%;
+  }
+}
+
+.table-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.faq-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.faq-table summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.faq-table p {
+  margin-top: 5px;
+}
+
+.footer {
+  background-color: #edf5ff; /* Replace with the background color of the entire webpage */
+  padding: 10px;
+  text-align: center;
+  }
+  
+  .footer p {
+  color: #8697ab;
+  }
+  
+  .footer-link {
+  color: #03c4e8;
+  }
